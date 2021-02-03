@@ -10,7 +10,7 @@ body{
     min-height: 100vh;
     font-size: 1rem;
     color: #424242;
-    background-color: #f5f5f5;
+    
 }
 
 h1,
@@ -74,5 +74,37 @@ p{
     height: auto;
     cursor: pointer;
 }
+
+.section{
+    width: 100%;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+    margin-top: 1.75rem;
+    box-shadow: 0 .5px .2px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* add-item input field section start */
+.add-item__input{
+    width: 100%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.add-item__icon{
+    width: 16px;
+    height: auto;
+}
+
+.add-item__input-field{
+    width: 100%;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #666666;
+}
+/* add-item input field section end */
 
 
