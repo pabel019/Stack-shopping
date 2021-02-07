@@ -106,5 +106,54 @@ p{
     color: #666666;
 }
 /* add-item input field section end */
+/* bem tables */
+
+.table{
+    margin-top: .75rem;
+}
+.table__table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    width: 100%;
+}
+.table__thead{
+    color: #666666;
+    border-bottom: 1px solid #666666;
+}
+.table__thead th{
+    font-weight: 600;
+}
+.table__tbody th{
+    font-weight: 600;
+}
+.table th {
+    padding: 1.5rem 2rem;
+    width: 25%;
+    max-width: 25%; 
+}
+.button-icon{
+    border: none;
+    outline: none;
+    background:transparent;
+    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+.button-icon__icon{
+    width: 50%;
+    height: auto;
+}
+
+/* utilities */
+.align-right{
+    text-align: right;
+}
+.table .custom-th{
+    padding-left:6rem ;
+}
+.text-secondary{
+    color: #666666;
+}
 
 
