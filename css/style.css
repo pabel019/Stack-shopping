@@ -10,6 +10,7 @@ body {
   min-height: 100vh;
   font-size: 1rem;
   color: #424242;
+  background: #e5e5e5;
 }
 
 h1,
@@ -80,6 +81,7 @@ p {
   background-color: #ffffff;
   margin-top: 1.55rem;
   box-shadow: 0 0.5px 0.2px 0 rgba(0, 0, 0, 0.1);
+  padding: 0.7rem;
 }
 
 /* add-item input field section start */
@@ -116,20 +118,34 @@ p {
   text-align: left;
   width: 100%;
 }
+.table__table .custom-change th {
+  padding: 1rem 0;
+}
 .table__thead {
-  color: #666666;
-  border-bottom: 1px solid #666666;
+  color: #757575;
+  border-bottom: 1px solid #e5e5e5;
 }
 .table__thead th {
   font-weight: 600;
 }
 .table__tbody th {
   font-weight: 600;
+  color: #424242;
 }
 .table th {
   padding: 1.5rem 2rem;
   width: 25%;
   max-width: 25%;
+  color: #424242;
+}
+.table__item-input {
+  background: #ffffff;
+  border-radius: 2px;
+}
+.table--success.table__thead {
+  background-color: #4a8d47;
+  border-radius: 2px;
+  margin-right: 20px;
 }
 .button-icon {
   border: none;
@@ -138,6 +154,7 @@ p {
   cursor: pointer;
   width: 1.75rem;
   height: 1.75rem;
+  margin-right: 10px;
 }
 .button-icon__icon {
   width: 50%;
@@ -171,8 +188,6 @@ p {
   overflow: hidden;
 }
 .horizontal-line {
-  width: 100%;
-  height: 0;
   border: 1px solid #e0e0e0;
 }
 
@@ -186,6 +201,7 @@ p {
 .text-secondary {
   color: #666666;
 }
+
 .add-item__suggestions-chip-item {
   padding: 0.5rem;
   background-color: white;
