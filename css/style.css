@@ -118,9 +118,10 @@ p {
   text-align: left;
   width: 100%;
 }
-.table__table .custom-change th {
+.table__table th {
   padding: 1rem 0;
 }
+
 .table__thead {
   color: #757575;
   border-bottom: 1px solid #e5e5e5;
@@ -132,17 +133,17 @@ p {
   font-weight: 600;
   color: #424242;
 }
-.table th {
+/* .table th {
   padding: 1.5rem 2rem;
   width: 25%;
   max-width: 25%;
   color: #424242;
-}
+} */
 .table__item-input {
   background: #ffffff;
   border-radius: 2px;
 }
-.table--success.table__thead {
+.table--sucess__thead {
   background-color: #4a8d47;
   border-radius: 2px;
   margin-right: 20px;
